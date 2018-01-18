@@ -2,7 +2,7 @@ import {expect} from 'chai'
 import {hoopCount} from './KeepUpTheHoop'
 
 describe('hoopCount', ()=>{
-    it('should return a boolean', ()=>{
+    it('should return a string', ()=>{
         expect(hoopCount(5)).to.be.a('string')
     })
 
