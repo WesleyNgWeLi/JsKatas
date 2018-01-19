@@ -6,6 +6,6 @@ const buildArr = (start,end) => {
 
 const getSum = (start, end) => 
     buildArr(start,end)
-    .reduce((a,b)=>a+b, 0)
+    .reduce((a,b)=>a+b)
 
 export {buildArr, getSum}
